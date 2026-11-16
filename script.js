@@ -3,7 +3,7 @@
 (() => {
 'use strict';
 const $ = s => document.querySelector(s), app = $('#app'), fogEl = $('#fog');
-const KS = 'ge_session', KR = 'ge_records', KM = 'ge_mute';
+const KS = 'ge2_session', KR = 'ge2_records', KM = 'ge2_mute';
 const ST = GE_STORY, GG = GE_GAMES, VER = '2.0';
 const CTX = (() => { try { return new URLSearchParams(location.search).get('ctx') === 'aula' ? 'aula' : 'casa'; } catch (e) { return 'casa'; } })();
 const GE_DEMO_ON = () => typeof GE_DEMO !== 'undefined' && GE_DEMO;
