@@ -159,3 +159,6 @@ textarea{resize:vertical}
 
 @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
 @media (min-width:700px){main#app{max-width:640px}}
+
+/* v2.0: respeta el atributo hidden aunque el elemento tenga display propio */
+[hidden]{display:none!important}
